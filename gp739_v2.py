@@ -23,7 +23,7 @@ from sklearn.ensemble import (
 from sklearn.neighbors import KNeighborsRegressor
 
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4592_k27.csv"
+CSV_PATH = "/data/loto7hh_4592_k27.csv"
 COLS = ["Num1", "Num2", "Num3", "Num4", "Num5", "Num6", "Num7"]
 SEED = 39
 np.random.seed(SEED)
@@ -162,7 +162,7 @@ Ukupno: 7 x 2 x 6 = 84 treninga za svaku poziciju
 ========================================================================
 gp739_v2 - Standalone ensemble Lotto 7/39
 ========================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4592_k27.csv
+CSV: /data/loto7hh_4592_k27.csv
 Uzoraka za trening: 4591
 
 [pozicija 1]
