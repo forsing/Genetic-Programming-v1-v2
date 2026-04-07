@@ -2102,6 +2102,7 @@ To daje stabilniju predikciju od jednog modela.
 
 više konfiguracija GP modela (MODEL_CONFIGS) umesto jedne fiksne
 time-series validaciju (zadnji deo kao val)
+po poziciji ima 3 konfiguracije × 2 rep = 6 kandidata.
 za svaku poziciju trenira više kandidata (3 cfg x 2 rep = 6)
 računa MAE na validaciji
 za finalnu vrednost pozicije uzima median najboljih 3 kandidata
